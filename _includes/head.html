@@ -1,0 +1,8 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.seo_title %}{{ page.seo_title }}{% else %}{{ site.business_name }}{% endif %}</title>
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Professional carpet cleaning across {{ site.service_area }}.{% endif %}">
+<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}"><meta property="og:type" content="website"><meta name="theme-color" content="#0f172a">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ page.root_path | default: '' }}assets/style.css">
+<meta property="og:title" content="{% if page.seo_title %}{{ page.seo_title }}{% else %}{{ site.business_name }}{% endif %}"><meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Professional carpet cleaning across {{ site.service_area }}.{% endif %}"><meta property="og:image" content="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1800&auto=format&fit=crop">

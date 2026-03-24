@@ -1,0 +1,1 @@
+Edit _config.yml for business details. Edit _data/towns.yml for towns and nearby areas. Edit _data/services.yml for service names and descriptions. Commit and push to GitHub Pages to rebuild the site. Do not expect local raw HTML files to render Jekyll variables without a build.
