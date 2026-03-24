@@ -1,1 +1,0 @@
-Open index.html to preview the commercial carpet cleaning site. Upload the full folder to your hosting or GitHub Pages structure. Replace stock images, text and form handling as needed. Built for The Carpet Cleaning Company.
