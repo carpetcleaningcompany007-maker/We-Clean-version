@@ -1,1 +1,1 @@
-Open index.html to preview the commercial carpet cleaning site. Upload the full folder to your hosting or GitHub Pages structure. Replace stock images, text and form handling as needed. Built for The Carpet Cleaning Company.
+Open index.html to preview the VKA Carpet & Upholstery Cleaning site. Upload the full folder to hosting or GitHub Pages. This build uses local hero, upholstery and rug images plus a few remote stock photos for supporting sections.
