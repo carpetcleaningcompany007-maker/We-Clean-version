@@ -151,3 +151,8 @@ button,input,textarea,select{font:inherit}
   .hero-card,.card-body,.contact-panel,.promo{padding:22px}
   .hero-card h2{font-size:26px}
 }
+
+
+.equipment-frame{background:linear-gradient(180deg,#f8fafc,#e2e8f0);padding:28px;display:flex;align-items:center;justify-content:center}
+.equipment-frame img{width:100%;height:auto;max-height:420px;min-height:0;object-fit:contain;filter:drop-shadow(0 20px 40px rgba(15,23,42,.18))}
+@media (max-width: 860px){.equipment-frame{padding:18px}.equipment-frame img{max-height:320px}}
