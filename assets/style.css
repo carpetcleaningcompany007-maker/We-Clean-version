@@ -230,3 +230,17 @@ button,input,textarea,select{font:inherit}
 .promo .service-card .btn,
 .promo .service-box .btn,
 .promo .area-card .btn{box-shadow:0 14px 30px rgba(29,78,216,.24) !important}
+
+
+/* Quick details logo block */
+.detail-brand{display:flex;align-items:center;gap:14px;padding:0 0 16px;margin:0 0 16px;border-bottom:1px solid rgba(15,34,56,.10)}
+.detail-logo{width:58px;height:58px;object-fit:contain;border-radius:16px;background:#fff;padding:5px;box-shadow:0 10px 24px rgba(15,98,254,.14);flex:0 0 auto}
+.detail-brand strong{display:block;font-size:18px;line-height:1.1;color:var(--text)}
+.detail-brand span{display:block;margin-top:4px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+
+/* Balance 4 card promo grids */
+.promo-service-grid{grid-template-columns:repeat(2,minmax(0,1fr)) !important;align-items:stretch}
+.promo-service-grid .card{height:100%}
+.promo-service-grid .card-body{display:flex;flex-direction:column;height:100%}
+.promo-service-grid .btn{margin-top:auto}
+@media (max-width:760px){.promo-service-grid{grid-template-columns:1fr !important}}
