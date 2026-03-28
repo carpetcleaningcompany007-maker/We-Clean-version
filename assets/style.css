@@ -203,3 +203,30 @@ button,input,textarea,select{font:inherit}
   transform:translateY(-4px);
   box-shadow:0 22px 56px rgba(15,23,42,.12);
 }
+
+
+/* Strong local service card text fix */
+.promo .card,
+.promo .service-card,
+.promo .service-box,
+.promo .area-card{background:#ffffff !important;opacity:1 !important;border:1px solid rgba(15,23,42,.10) !important;box-shadow:0 18px 45px rgba(0,0,0,.10) !important}
+.promo .card-body,
+.promo .service-card .card-body,
+.promo .service-box .card-body,
+.promo .area-card .card-body{background:#ffffff !important;opacity:1 !important}
+.promo .card-body h3,
+.promo .service-card h3,
+.promo .service-box h3,
+.promo .area-card h3{color:#0f172a !important;font-weight:800 !important}
+.promo .card-body p,
+.promo .service-card p,
+.promo .service-box p,
+.promo .area-card p{color:#24364a !important;font-weight:600 !important;line-height:1.7 !important;opacity:1 !important;-webkit-text-fill-color:#24364a !important}
+.promo .card-body *,
+.promo .service-card *,
+.promo .service-box *,
+.promo .area-card *{opacity:1 !important;filter:none !important}
+.promo .card .btn,
+.promo .service-card .btn,
+.promo .service-box .btn,
+.promo .area-card .btn{box-shadow:0 14px 30px rgba(29,78,216,.24) !important}
