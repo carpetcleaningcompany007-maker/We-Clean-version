@@ -173,3 +173,33 @@ button,input,textarea,select{font:inherit}
   .mobile-cta-call{background:linear-gradient(135deg,#0f62fe,#093ea4);color:#fff}
   .mobile-cta-wa{background:#25D366;color:#fff}
 }
+
+
+/* Global visibility fix for service cards and local SEO cards */
+.card, .service-card, .service-box, .area-card {
+  background:#ffffff;
+  opacity:1;
+}
+.card-body, .service-card .card-body, .service-box .card-body, .area-card .card-body {
+  opacity:1;
+}
+.card-body h3, .service-card h3, .service-box h3, .area-card h3 {
+  color:#0f172a !important;
+  font-weight:800;
+}
+.card-body p, .service-card p, .service-box p, .area-card p {
+  color:#334155 !important;
+  font-weight:500;
+  line-height:1.7;
+  opacity:1 !important;
+}
+.card-body *, .service-card *, .service-box *, .area-card * {
+  filter:none !important;
+}
+.card .btn, .service-card .btn, .service-box .btn, .area-card .btn {
+  box-shadow:0 12px 28px rgba(29,78,216,.22);
+}
+.card:hover, .service-card:hover, .service-box:hover, .area-card:hover {
+  transform:translateY(-4px);
+  box-shadow:0 22px 56px rgba(15,23,42,.12);
+}
